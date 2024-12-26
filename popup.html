@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <h2>javascript confirm box</h2>
+        <button onclick="myfun()">please try it!!!</button>
+        <p id="Test confirm box"></p>
+        <script>
+            function myfun()
+            {
+                var txt;
+                if(confirm("please press button!"))
+                {
+                    txt="you press button!!";
+                }
+                else
+                {
+                    txt="you press cancel button!";
+                }
+                document.getElementById("Test confirm box").innerHTML=txt;
+            }
+        </script>
+    </body>
+</html>
